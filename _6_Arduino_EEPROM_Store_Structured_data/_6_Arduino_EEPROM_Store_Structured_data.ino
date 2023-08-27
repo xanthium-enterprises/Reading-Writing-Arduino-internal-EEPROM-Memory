@@ -3,7 +3,7 @@
 // EEPROM Capacity -> 1024 bytes
 // (c)www.xanthium.in
 
-// Store float values in EEProm using EEPROM.get() and EEPROM.put()
+// Store struct values in EEProm using EEPROM.get() and EEPROM.put()
 
 #include <EEPROM.h> // Library for accessing internal EEPROM
 
