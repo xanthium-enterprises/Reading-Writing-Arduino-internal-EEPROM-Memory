@@ -10,7 +10,7 @@
 struct mystruct
 {
   float f;
-  byte  b;     // 8-bit unsigned number, from 0 to 255
+  byte  b;         // 8-bit unsigned number, from 0 to 255
   char text[10];
 };
 
