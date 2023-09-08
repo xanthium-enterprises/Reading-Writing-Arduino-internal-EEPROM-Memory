@@ -4,6 +4,12 @@
 
  - Here we are dealing with data storage to the **internal EEPROM** of Arduino 
 
+## Youtube Tutorial
+
+You can check out our youtube tutorial for a comprehensive explanation of the code and EEPROM data storage concepts.
+
+ - Arduino EEPROM Data Storage Tutorial (Youtube Video)
+
 ## Introduction
 This repository aims to simplify the process of working with EEPROM on your Arduino board. It covers the basics of reading and writing data types like bytes, floats, doubles, character strings, and even structs into EEPROM memory. By following the examples and guidelines provided here, you'll be able to integrate EEPROM storage seamlessly into your Arduino projects.
 
@@ -16,6 +22,7 @@ Before diving into EEPROM data storage, make sure you have the necessary hardwar
 
 Clone or download this repository to access the code examples and (documentation).
 
+## What you will Learn 
 
 ## License
 This project is licensed under the MIT License, so feel free to use, modify, and distribute it as needed.
