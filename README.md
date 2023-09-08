@@ -6,3 +6,16 @@
 
 ## Introduction
 This repository aims to simplify the process of working with EEPROM on your Arduino board. It covers the basics of reading and writing data types like bytes, floats, doubles, character strings, and even structs into EEPROM memory. By following the examples and guidelines provided here, you'll be able to integrate EEPROM storage seamlessly into your Arduino projects.
+
+## Getting Started
+Before diving into EEPROM data storage, make sure you have the necessary hardware and development environment set up. You'll need:
+
+ - An Arduino board (UNO/Mega/Lillypad etc ).
+ - The Arduino IDE installed on your computer.
+ - Basic knowledge of Arduino programming.
+
+Clone or download this repository to access the code examples and (documentation).
+
+
+## License
+This project is licensed under the MIT License, so feel free to use, modify, and distribute it as needed.
