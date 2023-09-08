@@ -6,7 +6,9 @@
 
 ## Youtube Tutorial
 
-You can check out our youtube tutorial for a comprehensive explanation of the code and EEPROM data storage concepts.
+![Learn to Read and Write bytes, floats ,doubles ,character strings, structs to EEPROM of Arduino](https://i.ytimg.com/vi/q2yXXJkgqUk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8HpvGzTRlegMYYCiuKoa-X2a_IA)
+
+You can check out our youtube tutorial for a comprehensive explanation of the code and EEPROM data storage concepts.Link Below
 
  - [Arduino EEPROM Data Storage Tutorial (Youtube Video)](https://www.youtube.com/watch?v=q2yXXJkgqUk)
 
@@ -23,6 +25,13 @@ Before diving into EEPROM data storage, make sure you have the necessary hardwar
 Clone or download this repository to access the code examples and [documentation](https://www.youtube.com/watch?v=q2yXXJkgqUk).
 
 ## What you will Learn 
+
+ - How to determine the size of internal eeprom of Arduino programmatically
+ - How to read and write a byte to the internal eeprom of Arduino
+ - How to read and write a string of characters (array) to the internal eeprom of Arduino
+ - How to read and write a multi byte  float or double datatype to the internal eeprom of Arduino
+ - How to read and write a struct datatype to the internal eeprom of Arduino
+
 
 ## License
 This project is licensed under the MIT License, so feel free to use, modify, and distribute it as needed.
