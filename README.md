@@ -12,6 +12,10 @@ You can check out our youtube tutorial for a comprehensive explanation of the co
 
  - [Arduino EEPROM Data Storage Tutorial (Youtube Video)](https://www.youtube.com/watch?v=q2yXXJkgqUk)
 
+## Online Tutorial
+
+ - [Reading and Writing Bytes,Double,Floats,Structs,Characters to Internal EEPROM Memory of Arduino](https://www.xanthium.in/reading-and-writing-float-byte-double-to-internal-eeprom-memory-arduino-uno-mega-data-storage)
+
 ## Introduction
 This repository aims to simplify the process of working with EEPROM on your Arduino board. It covers the basics of reading and writing data types like bytes, floats, doubles, character strings, and even structs into EEPROM memory. 
 
