@@ -1,3 +1,4 @@
+![Reading and Writing to Internal EEPROM Memory of Arduino](https://www.xanthium.in/sites/default/files/inline-images/internal-eeprom-program-arduino.jpg)
 # Arduino (internal) EEPROM Data Storage Tutorial
 
 - This GitHub repository provides a comprehensive guide on how to read and write various data types, including bytes, floats, doubles, character strings, and even structs to the EEPROM of your Arduino board.
