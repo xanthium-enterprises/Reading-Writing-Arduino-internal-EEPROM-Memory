@@ -11,7 +11,7 @@ void setup()
  {
 
   char Text[] = {"ATmega328P is a good Micro !@#$%^&*()"};//String Array terminated by \0 null
- 
+  //char Text[] = {"Arduino-1234-!@#$%^&*()"};
   //char Text[] = {'ATmega328P'}; //Char array,not terminated by \0 null
 
   int array_length = sizeof(Text)/sizeof(char); //Calculate the Number of elements in the Array
@@ -19,12 +19,13 @@ void setup()
    
   Serial.begin(9600); //to send data to serial monitor
 
-  Serial.println("\n\n===============================");
-  Serial.println(Text);
+ 
+  Serial.print("\nText to Store -> ");
+  Serial.print(Text);
   Serial.print("\nNumber of Elements in Array (characters + Null) -> ");
   Serial.println(array_length);
 
-  Serial.println("\n Writing to EEPROM");
+  Serial.println("\nWriting to EEPROM");
   while (Text[i] !='\0' )
   {
     EEPROM.write(i,Text[i]);//write the array to EEPROM except /0 null terminator
@@ -35,11 +36,11 @@ void setup()
     i++;
   }
 
-  Serial.println("Reading from EEPROM");
-  for(i=0;i<(array_length-1);i++)
+  Serial.println("\nReading from EEPROM");
+
+  for(i=0;i<(array_length-1);i++) //array_length-1 because we are not storing null
   {
     Serial.print(char(EEPROM.read(i)));
-    
   }
 
 
