@@ -10,8 +10,8 @@
 void setup()
  {
 
-  char Text[] = {"ATmega328P is a good Micro !@#$%^&*()"};//String Array terminated by \0 null
-  //char Text[] = {"Arduino-1234-!@#$%^&*()"};
+  //char Text[] = {"ATmega328P is a good Micro !@#$%^&*()"};//String Array terminated by \0 null
+  char Text[] = {"Arduino-1234-!@#$%^&*()"};
   //char Text[] = {'ATmega328P'}; //Char array,not terminated by \0 null
 
   int array_length = sizeof(Text)/sizeof(char); //Calculate the Number of elements in the Array

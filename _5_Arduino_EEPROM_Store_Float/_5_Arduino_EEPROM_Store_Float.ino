@@ -19,16 +19,22 @@ void setup()
   int EEPROM_address_2 = sizeof(float);     // start address = 4
   int EEPROM_address_3 = (sizeof(float)*2); // start address = 8
   
-  Serial.println(EEPROM_address_1);//start address EEPROM_address_1
-  Serial.println(EEPROM_address_2);//start address EEPROM_address_2
-  Serial.println(EEPROM_address_3);//start address EEPROM_address_3
 
   EEPROM.put(EEPROM_address_1, float_value_1);//store the float value 111.11 at address = 0
   EEPROM.put(EEPROM_address_2, float_value_2);//store the float value 222.22 at address = 4
   EEPROM.put(EEPROM_address_3, float_value_3);//store the float value 333.33 at address = 8
-
+  
+  Serial.println("Addr - Data\n================");
+  Serial.print(EEPROM_address_1);//start address EEPROM_address_1
+  Serial.print(" - ");
   Serial.println(EEPROM.get(EEPROM_address_1, float_value_1));//get the float value and send to output
+  
+  Serial.print(EEPROM_address_2);//start address EEPROM_address_2
+  Serial.print(" - ");
   Serial.println(EEPROM.get(EEPROM_address_2, float_value_2));//get the float value and send to output
+  
+  Serial.print(EEPROM_address_3);//start address EEPROM_address_3
+  Serial.print(" - ");
   Serial.println(EEPROM.get(EEPROM_address_3, float_value_3));//get the float value and send to output
 
  
